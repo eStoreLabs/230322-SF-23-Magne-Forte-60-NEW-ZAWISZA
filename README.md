@@ -1,34 +1,16 @@
-# 230322 SF 23 Magne Forte 100 Melissa
-Forte 60 będzie tak samo
+# 230322 SF 23 Magne Forte 100 Generyk NEW PACKSHOTS
+
 ## LIVE SITE LINK 
 <!-- please enter link to site preview here -->
-[Project live site](https://estorelabs.github.io/RC---230322-SF-23-Magne-Forte-100-GENERIC/)
+[Project live site](https://magne-forte-100-new.netlify.app/)
 ## PROJECT PREVIEW
-[Design preview for the project](./link)
+![image](https://github.com/eStoreLabs/230322-SF-23-Magne-Forte-100-NEW-GENERIC/assets/130984276/f4875f39-69a7-43a0-a48c-0d8fb1a2d13c)
+
 
 
 ### LINKS TO DESIGNS (in .xd or .psd)
-<!-- please enter link to preview designs -->
 
+[Design files](https://drive.google.com/drive/folders/1q7RY-SWVXB_MpWRRLC9mf3Gd3855LMRp)
 
 ### DESTINATION (name of e-retailer or general/pure)
-Generic
-Melissa
-
-### E-RETAILER’S SPECIFICATION (technical guidelines; html, css, graphics, photos, resolution)
-<!-- please enter any additional comments important for the project -->
-~~`max-width: 790px;`~~
-
-~~Remove JavaScript files. All JavaScript content needs to be coded again using only html and css. Ask PM about it. In general, they do not accept JS, but there were exceptions for some RC.~~
-
-~~Remove all videos. Melissa does not accept any videos in code.~~
-
-~~All images should be in webp. format.~~
-
-Whole card needs to have less than <500kb.
-
-~~Do not use `<h1>` tags.~~
-
-~~Do not use external source code: sliders/carousels from slider.js, slick-carousel, owl carousel etc. Needs to be coded without external sources.~~
-  
-~~styles have to placed in html file ( not in separete css file).~~
+is generic
