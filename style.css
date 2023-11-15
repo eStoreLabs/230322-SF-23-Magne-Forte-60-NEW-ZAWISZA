@@ -75,14 +75,13 @@
 }
 
 #es-magne-b6.es-magne-b6 .es-kv__title {
- margin-top: 0;   
- margin-left: 5%;
+    margin-top: 0;   
+    margin-left: 5%;
     padding-top: 5%;
     line-height: 0.8;
     color: inherit;
     font-family: "Bliss";
-    font-weight: 600;
-    font-size: 48px;
+    font-size: clamp(2.6875rem, 1.1042rem + 7.9167vw, 5.0625rem);
     text-transform: uppercase;
     /* text-align: center; */
     text-shadow: 0px 0px 5px #7999cf;
@@ -98,7 +97,7 @@
     color: inherit;
     font-family: "Bliss";
     font-weight: 600;
-    font-size: 19px;
+    font-size: clamp(1.0625rem, 0.4375rem + 3.125vw, 2rem);
     text-transform: uppercase;
     /* text-align: center; */
     text-shadow: 0px 0px 5px #7999cf;
@@ -180,7 +179,7 @@
     line-height: inherit;
     color: #962d38;
     font-family: "Bliss-Heavy", sans-serif;
-    font-size: clamp(1.5rem, 0.1383rem + 6.8085vw, 3.5rem);
+    font-size: clamp(1.5rem, 0rem + 7.5vw, 3.75rem);
     text-transform: uppercase;
     text-align: center;
 }
@@ -209,7 +208,7 @@
     line-height: inherit;
     font-weight: inherit;
     color: inherit;
-    font-size: 20px;
+    font-size: clamp(1.25rem, 0.625rem + 3.125vw, 2.1875rem);
     font-family: "Gilroy SemiBold";
     background-color: #962d38;
     text-align: center;
@@ -240,9 +239,8 @@
     margin: 0;
     padding: 0;
     line-height: inherit;
-    font-weight: 600;
     color: #001883;
-    font-size: inherit;
+    font-size: clamp(1rem, 0.8333rem + 0.8333vw, 1.25rem);
     font-family: "Gilroy SemiBold";
     text-align: left;
     padding-top: 16px;
@@ -275,7 +273,7 @@
     line-height: inherit;
     color: inherit;
     font-family: "Bliss-Heavy", sans-serif;
-    font-size: clamp(1.5rem, 0.1383rem + 6.8085vw, 3.5rem);
+    font-size: clamp(1.5rem, 0rem + 7.5vw, 3.75rem);
     text-transform: uppercase;
     text-align: center;
     padding-top: 48px;
@@ -289,26 +287,22 @@
     color: inherit;
     font-family: inherit;
     font-weight: 600;
-    font-size: 20px;
+    font-size: clamp(1.25rem, 0.625rem + 3.125vw, 2.1875rem);
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 24px;
 }
-
 #es-magne-b6.es-magne-b6 .es-benefits__single {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
-    gap: 32px;
+    gap: 24px;
     background-color: #fff;
     border: 2px solid #001883;
-    border-radius: 50px;
-    min-width: 230px;
+    border-radius: 99px;
+    width: 90%;
 }
-
 #es-magne-b6.es-magne-b6 .es-benefits__circle {
-    margin-top: 12px;
     border: 2px solid #001883;
     border-radius: 222px;
     background-color: #fff;
@@ -317,10 +311,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -2px;
 }
 
 #es-magne-b6.es-magne-b6 .es-benefits__icon {
     animation: es-pulse 2s infinite;
+    width: 40px;
 }
 
 #es-magne-b6.es-magne-b6 .es-benefits__text {
@@ -329,10 +325,7 @@
     line-height: inherit;
     color: #001883;
     font-family: "Gilroy SemiBold";
-    font-weight: 600;
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 12px;
+    font-size: clamp(1rem, 0.4583rem + 2.7083vw, 1.8125rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-benefits__content {
@@ -364,9 +357,9 @@
     color: inherit;
     font-family: "Gilroy SemiBold";
     font-weight: inherit;
-    font-size: 20px;
+    font-size: clamp(1.25rem, 0.625rem + 3.125vw, 2.1875rem);
     text-transform: uppercase;
-    margin-left: 26%;
+    margin-left: 14%;
 }
 
 #es-magne-b6.es-magne-b6 .es-benefits__desc {
@@ -376,8 +369,8 @@
     color: inherit;
     font-family: "Gilroy SemiBold";
     font-weight: inherit;
-    font-size: inherit;
     text-align: center;
+    font-size: clamp(1.25rem, 1.0833rem + 0.8333vw, 1.5rem);
 }
 
 #es-magne-b6.es-magne-b6 #es-benefits-expand-toggle {
@@ -460,7 +453,7 @@
     line-height: inherit;
     color: #001883;
     font-family: "Bliss-Heavy", sans-serif;
-    font-size: clamp(1.5rem, 0.1383rem + 6.8085vw, 3.5rem);
+    font-size: clamp(1.5rem, 0rem + 7.5vw, 3.75rem);
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 64px;
@@ -474,7 +467,7 @@
     color: #962d38;
     font-family: inherit;
     font-weight: 600;
-    font-size: 20px;
+    font-size: clamp(1.25rem, 0.625rem + 3.125vw, 2.1875rem);
     text-align: center;
     margin-bottom: 32px;
     padding-inline: 16px;
@@ -482,17 +475,16 @@
 
 #es-magne-b6.es-magne-b6 .es-symptoms__single {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
     gap: 24px;
     background-color: #fff;
-    border-radius: 50px;
-    min-width: 240px;
+    border: 2px solid #001883;
+    border-radius: 99px;
+    width: 250px;
 }
 
 #es-magne-b6.es-magne-b6 .es-symptoms__circle {
-    margin-top: 24px;
     border: 2px solid #001883;
     border-radius: 222px;
     background-color: #fff;
@@ -501,6 +493,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: -2px;
 }
 
 #es-magne-b6.es-magne-b6 .es-symptoms__icon {
@@ -515,8 +508,7 @@
     color: #001883;
     font-family: "Gilroy SemiBold";
     font-weight: inherit;
-    font-size: 16px;
-    text-align: center;
+    font-size: clamp(1rem, 0.6667rem + 1.6667vw, 1.5rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-symptoms__sign {
@@ -538,8 +530,8 @@
     color: #001883;
     font-family: inherit;
     font-weight: 400;
-    font-size: inherit;
     text-align: left;
+    font-size: clamp(1rem, 0.6667rem + 1.6667vw, 1.5rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-symptoms__content {
@@ -674,6 +666,7 @@
     font-family: inherit;
     font-weight: 600;
     text-align: center;
+    font-size: clamp(1rem, 0.8333rem + 0.8333vw, 1.25rem);
 }
 #es-magne-b6.es-magne-b6 .es-dose__span {
     font-size: 32px;
@@ -707,9 +700,9 @@
     color: inherit;
     font-family: "Gilroy SemiBold";
     font-weight: inherit;
-    font-size: 20px;
+    font-size: clamp(1.25rem, 0.625rem + 3.125vw, 2.1875rem);
     text-transform: uppercase;
-    margin-left: 26%;
+    margin-left: 14%;
 }
 
 #es-magne-b6.es-magne-b6 .es-dose__desc {
@@ -720,9 +713,9 @@
     font-family: inherit;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 20px;
     text-align: center;
     margin-bottom: 16px;
+    font-size: clamp(1.25rem, 0.625rem + 3.125vw, 2.1875rem);
 }
 
 #es-magne-b6.es-magne-b6 #es-dose-expand-toggle {
@@ -770,7 +763,7 @@
     line-height: inherit;
     color: inherit;
     font-family: "Bliss-Heavy", sans-serif;
-    font-size: clamp(1.5rem, 0.1383rem + 6.8085vw, 3.5rem);
+    font-size: clamp(1.5rem, 0rem + 7.5vw, 3.75rem);
     text-transform: uppercase;
     text-align: center;
     padding-top: 128px;
@@ -784,9 +777,9 @@
     color: inherit;
     font-family: inherit;
     font-weight: 600;
-    font-size: 20px;
     text-transform: uppercase;
     text-align: center;
+    font-size: clamp(1.25rem, 0.625rem + 3.125vw, 2.1875rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-choose__text {
@@ -799,6 +792,7 @@
     font-size: inherit;
     text-align: center;
     padding-bottom: 32px;
+    font-size: clamp(1rem, 0.6667rem + 1.6667vw, 1.5rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-ingredients__img {
@@ -821,7 +815,7 @@
     line-height: inherit;
     color: #001883;
     font-family: "Bliss-Heavy", sans-serif;
-    font-size: clamp(1.5rem, 0.1383rem + 6.8085vw, 3.5rem);
+    font-size: clamp(1.5rem, 0rem + 7.5vw, 3.75rem);
     text-transform: uppercase;
     text-align: center;
     padding-top: 32px;
@@ -880,9 +874,9 @@
     color: #001883;
     font-family: inherit;
     font-weight: 400;
-    font-size: 16px;
     text-align: center;
     margin-bottom: 24px;
+    font-size: clamp(1rem, 0.6667rem + 1.6667vw, 1.5rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-ingredients__content {
@@ -915,9 +909,9 @@
     color: inherit;
     font-family: "Gilroy SemiBold";
     font-weight: inherit;
-    font-size: 20px;
+    font-size: clamp(1.25rem, 0.625rem + 3.125vw, 2.1875rem);
     text-transform: uppercase;
-    margin-left: 26%;
+    margin-left: 14%;
 }
 
 #es-magne-b6.es-magne-b6 .es-ingredients__desc {
@@ -969,7 +963,7 @@
     line-height: inherit;
     color: inherit;
     font-family: "Bliss-Heavy", sans-serif;
-    font-size: clamp(1.5rem, 0.1383rem + 6.8085vw, 3.5rem);
+    font-size: clamp(1.5rem, 0rem + 7.5vw, 3.75rem);
     text-transform: uppercase;
     text-align: center;
     padding-top: 96px;
@@ -983,8 +977,8 @@
     color: inherit;
     font-family: "Gilroy SemiBold";
     font-weight: inherit;
-    font-size: inherit;
     text-align: center;
+    font-size: clamp(1rem, 0.6667rem + 1.6667vw, 1.5rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-info__desc {
@@ -1024,14 +1018,14 @@
     line-height: inherit;
     color: #001883;
     font-family: "Bliss-Heavy", sans-serif;
-    font-size: clamp(1.5rem, 0.1383rem + 6.8085vw, 3.5rem);
+    font-size: clamp(1.5rem, 0rem + 7.5vw, 3.75rem);
     text-align: center;
     padding-top: 200px;
 }
 #es-magne-b6.es-magne-b6 .es-cross__label {
   font-family: "Bliss-Heavy", sans-serif;
   text-transform: uppercase;
-  font-size: clamp(0.75rem, 0.4947rem + 1.2766vw, 1.125rem);
+  font-size: clamp(0.75rem, 0.1033rem + 3.2333vw, 1.72rem);
   color: #001883;
   background-color: #FFF;
   padding: 0.1rem 0.75rem;
@@ -1050,9 +1044,9 @@
     color: #962d38;
     font-family: inherit;
     font-weight: 600;
-    font-size: 24px;
     text-align: center;
     margin-bottom: 24px;
+    font-size: clamp(1.25rem, 0.625rem + 3.125vw, 2.1875rem);
 }
 
 #es-magne-b6.es-magne-b6 #es-cross-packshot {
@@ -1073,6 +1067,7 @@
     animation: es-pulse2 2s infinite;
     text-decoration: none;
     margin-bottom: 32px;
+    font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.4375rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-cross__single {
@@ -1084,8 +1079,9 @@
 
 #es-magne-b6.es-magne-b6 .es-cross__btn--mobile {
     white-space: nowrap;
-    width: 260px;
+    width: fit-content;
     cursor: pointer;
+    font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.4375rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-cross__name {
@@ -1095,8 +1091,8 @@
     color: #001883;
     font-family: inherit;
     font-weight: 600;
-    font-size: 20px;
     text-align: center;
+    font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.4375rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-cross__content {
@@ -1153,7 +1149,7 @@
     line-height: inherit;
     color: #001883;
     font-family: "Bliss-Heavy", sans-serif;
-    font-size: clamp(1.5rem, 0.1383rem + 6.8085vw, 3.5rem);
+    font-size: clamp(1.5rem, 0rem + 7.5vw, 3.75rem);
     text-align: center;
     margin-bottom: 32px;
 }
@@ -1165,10 +1161,9 @@
     color: #001883;
     font-family: inherit;
     font-weight: 600;
-    font-size: inherit;
     text-align: center;
     margin-bottom: 24px;
-    padding-inline: 16px;
+    font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.4375rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-deal__desc {
@@ -1178,10 +1173,10 @@
     color: #001883;
     font-family: inherit;
     font-weight: 400;
-    font-size: inherit;
     text-align: left;
     margin-bottom: 32px;
     padding-inline: 16px;
+    font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.4375rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-deal__single {
@@ -1189,20 +1184,19 @@
 }
 
 #es-magne-b6.es-magne-b6 .es-deal__btn {
-    margin: 0 auto;
+    margin: 0;
     padding: 12px 24px;
     line-height: inherit;
     color: inherit;
     font-family: "Gilroy SemiBold";
     font-weight: inherit;
-    font-size: inherit;
-    margin-bottom: 20px;
     border-radius: 50px;
     background-color: #962d38;
     text-align: center;
     animation: es-pulse2 2s infinite;
     text-decoration: none;
     white-space: nowrap;
+    font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.4375rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-deal__content {
@@ -1248,8 +1242,8 @@
     color: #962d38;
     font-family: inherit;
     font-weight: 600;
-    font-size: inherit;
     text-align: left;
+    font-size: clamp(1rem, 0.7083rem + 1.4583vw, 1.4375rem);
 }
 
 
@@ -1278,9 +1272,8 @@
         padding-top: 96px;
     }
     #es-magne-b6.es-magne-b6 .es-benefits__single {
-        flex-direction: row;
-        border-radius: 222px;
-        width: 275px;
+        width: 80%;
+        max-width: 380px;
         justify-content: flex-start;
     }
     #es-magne-b6.es-magne-b6 .es-benefits__circle {
@@ -1289,10 +1282,6 @@
     }
     #es-magne-b6.es-magne-b6 .es-benefits__icon {
         width: 40px;
-    }
-    #es-magne-b6.es-magne-b6 .es-benefits__text {
-        margin-bottom: 0px;
-        text-align: left;
     }
     #es-magne-b6.es-magne-b6 .es-symptoms__container {
         display: flex;
@@ -1333,7 +1322,7 @@
         animation-delay: 16s;
     }
     #es-magne-b6.es-magne-b6 .es-symptoms__sign {
-        font-size: 16px;
+        font-size: 20px;
         text-align: left;
         animation: es-bigger 20s infinite;
         padding-bottom: 36px;
@@ -1353,25 +1342,32 @@
     #es-magne-b6.es-magne-b6 .es-symptoms__sign--5 {
         animation-delay: 16s;
     }
+    #es-magne-b6.es-magne-b6 .es-symptoms__wrapper {
+        width: 312px;
+    }
     #es-magne-b6.es-magne-b6 .es-symptoms__single {
         flex-direction: row;
         border-radius: 222px;
         justify-content: flex-start;
         border: 2px solid #001883;
-        min-width: 275px;
+        width: 312px;
+        height: 92px;
     }
     #es-magne-b6.es-magne-b6 .es-symptoms__circle {
         margin-top: 0px;
         margin-left: -4px;
+        height: 92px;
+        width: 92px;
+    }
+    #es-magne-b6.es-magne-b6 .es-symptoms__name {
+        margin-bottom: 12px;
     }
     #es-magne-b6.es-magne-b6 .es-symptoms__content {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
     }
-    #es-magne-b6.es-magne-b6 .es-symptoms__text {
-        text-align: left;
-    }
+
     #es-magne-b6.es-magne-b6 .es-dose__single {
         flex-direction: row;
         border-radius: 222px;
@@ -1487,22 +1483,18 @@
     max-width: 300px;
   }
 }
-
+@media (min-width: 576px) {
+    #es-magne-b6.es-magne-b6 .es-ingredients__single {
+        min-width: 380px;
+    }
+}
 @media screen and (min-width: 777px){
     #es-magne-b6.es-magne-b6 .es-kv__title {
-        font-size: 72px;
         margin-left: 10%;
     }
     #es-magne-b6.es-magne-b6 .es-kv__subtitle {
-        font-size: 32px;
         max-width: unset;
         margin-left: 10%;
-    }
-    #es-magne-b6.es-magne-b6 .es-kv__desc {
-        font-size: 24px;
-    }
-    #es-magne-b6.es-magne-b6 .es-features__text {
-        font-size: 20px;
     }
     #es-magne-b6.es-magne-b6 .es-features__single {
         width: 175px;
@@ -1523,9 +1515,7 @@
         padding-bottom: 96px;
         font-size: 24px;
     }
-    #es-magne-b6.es-magne-b6 .es-benefits__text {
-        font-size: 24px;
-    }
+
     #es-magne-b6.es-magne-b6 .es-benefits__icon {
         width: 60px;
     }
@@ -1534,7 +1524,7 @@
         height: 96px;
     }
     #es-magne-b6.es-magne-b6 .es-benefits__single {
-        width: 475px;
+        max-width: 475px;
     }
     #es-magne-b6.es-magne-b6 .es-symptoms {
         min-height: 1762px;
@@ -1547,17 +1537,12 @@
         padding-bottom: 48px;
         padding-top: 48px;
     }
-    #es-magne-b6.es-magne-b6 .es-symptoms__subtitle {
-        font-size: 28px;
-    }
     #es-magne-b6.es-magne-b6 .es-symptoms__sign {
         font-size: 24px;
         padding-bottom: 32px;
         padding-top: 32px;
     }
-    #es-magne-b6.es-magne-b6 .es-symptoms__text {
-        font-size: 24px;
-    }
+
     #es-magne-b6.es-magne-b6 .es-symptoms__icon {
         width: 60px;
     }
@@ -1569,7 +1554,7 @@
         width: 325px;
     }
     #es-magne-b6.es-magne-b6 .es-symptoms__name {
-        margin-bottom: 8px;
+        margin-bottom: 18px;
     }
     #es-magne-b6.es-magne-b6 .es-dose {
         margin-top: -100px;
@@ -1580,9 +1565,6 @@
     #es-magne-b6.es-magne-b6 .es-dose__subtitle {
         font-size: 24px;
         padding-inline: 64px;
-    }
-    #es-magne-b6.es-magne-b6 .es-dose__desc {
-        font-size: 24px;
     }
     #es-magne-b6.es-magne-b6 .es-dose__span {
         font-size: 40px;
@@ -1599,14 +1581,8 @@
         padding-bottom: 24px;
     }
     #es-magne-b6.es-magne-b6 .es-choose__title {
-        margin-bottom: 96px;
+        margin-bottom: 68px;
         padding-top: 222px;
-    }
-    #es-magne-b6.es-magne-b6 .es-choose__name {
-        font-size: 28px;
-    }
-    #es-magne-b6.es-magne-b6 .es-choose__text {
-        font-size: 24px;
     }
     #es-magne-b6.es-magne-b6 .es-ingredients__content {
         background-image: url(./images/tablet.webp);
@@ -1614,9 +1590,6 @@
         background-repeat: no-repeat;
     }
 
-    #es-magne-b6.es-magne-b6 .es-ingredients__text {
-        font-size: 24px;
-    }
     #es-magne-b6.es-magne-b6 .es-ingredients__icon {
         width: unset;
     }
@@ -1626,9 +1599,6 @@
     }
     #es-magne-b6.es-magne-b6 .es-ingredients__single {
         width: 475px;
-    }
-    #es-magne-b6.es-magne-b6 .es-info__text {
-        font-size: 24px;
     }
     #es-magne-b6.es-magne-b6 .es-info__desc {
         max-width: 555px;
@@ -1647,9 +1617,7 @@
         align-items: flex-end;
         gap: 8px;
     }
-    #es-magne-b6.es-magne-b6 .es-cross__btn {
-        font-size: 20px;
-    }
+
     #es-magne-b6.es-magne-b6 .es-cross__btn--mobile {
         display: none;
     }
@@ -1664,26 +1632,13 @@
         display: none;
     }
 
-    #es-magne-b6.es-magne-b6 .es-deal__subtitle {
-        font-size: 28px;
-    }
-    #es-magne-b6.es-magne-b6 .es-deal__subtitle--2 {
-        text-align: left;
-    }
     #es-magne-b6.es-magne-b6 .es-deal__desc {
-        font-size: 20px;
         margin-bottom: 64px;
     }
     #es-magne-b6.es-magne-b6 .es-deal__single {
         gap: 58px;
     }
-    #es-magne-b6.es-magne-b6 .es-deal__btn {
-        font-size: 20px;
-    }
     #es-magne-b6.es-magne-b6 .es-footer__version {
-        font-size: 16px;
-    }
-    #es-magne-b6.es-magne-b6 .es-footer__text {
         font-size: 16px;
     }
     #es-magne-b6.es-magne-b6 .es-deal__image {
