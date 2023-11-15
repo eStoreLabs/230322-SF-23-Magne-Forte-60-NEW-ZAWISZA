@@ -88,6 +88,7 @@
     position: relative;
     z-index: 5;
     margin-bottom: 5%;
+    line-height: 1;
 }
 
 #es-magne-b6.es-magne-b6 .es-kv__subtitle {
@@ -138,7 +139,7 @@
 @media (min-width: 768px) {
   #es-magne-b6.es-magne-b6 .es-kv__label {
     max-width: 17ch;
-    top: 38%;
+    top: 41%;
   }
 }
 #es-magne-b6.es-magne-b6 .es-kv__packshot {
@@ -1507,7 +1508,7 @@
     }
     #es-magne-b6.es-magne-b6 .es-benefits__title {
         padding-top: 175px;
-        padding-bottom: 75px;
+        padding-bottom: 28px;
     }
     #es-magne-b6.es-magne-b6 .es-benefits__desc {
         padding-inline: 64px;
