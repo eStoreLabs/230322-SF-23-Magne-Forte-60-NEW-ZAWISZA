@@ -489,7 +489,10 @@
     border-radius: 99px;
     width: 250px;
 }
-
+#es-magne-b6.es-magne-b6 .es-symptoms__list {
+    padding-left: 30px;
+    margin-top: 42px;
+}
 #es-magne-b6.es-magne-b6 .es-symptoms__circle {
     border: 2px solid #001883;
     border-radius: 222px;
@@ -514,7 +517,8 @@
     color: #001883;
     font-family: "Gilroy SemiBold";
     font-weight: inherit;
-    font-size: clamp(1rem, 0.6667rem + 1.6667vw, 1.5rem);
+    /* font-size: clamp(1rem, 0.6667rem + 1.6667vw, 1.5rem); */
+    font-size: clamp(1rem, 0.4583rem + 2.7083vw, 1.8125rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-symptoms__sign {
@@ -538,7 +542,8 @@
     font-family: inherit;
     font-weight: 400;
     text-align: left;
-    font-size: clamp(1rem, 0.6667rem + 1.6667vw, 1.5rem);
+    /* font-size: clamp(1rem, 0.6667rem + 1.6667vw, 1.5rem); */
+    font-size: clamp(1rem, 0.4583rem + 2.7083vw, 1.8125rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-symptoms__content {
@@ -1170,7 +1175,8 @@
     font-weight: 600;
     text-align: center;
     margin-bottom: 24px;
-    font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.4375rem);
+    /* font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.4375rem); */
+    font-size: clamp(1.25rem, 0.625rem + 3.125vw, 2.1875rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-deal__desc {
@@ -1226,7 +1232,7 @@
     color: #001883;
     font-family: inherit;
     font-weight: 400;
-    font-size: inherit;
+    font-size: clamp(1rem, 0.9167rem + 0.4167vw, 1.125rem);
     text-align: left;
     margin-bottom: 32px;
 }
@@ -1475,12 +1481,10 @@
     #es-magne-b6.es-magne-b6 .es-deal__subtitle {
         text-align: left;
     }
-    #es-magne-b6.es-magne-b6 .es-deal__subtitle--2 {
-        text-align: right;
-    }
+    
     #es-magne-b6.es-magne-b6 .es-deal__content {
         align-items: flex-start;
-        padding-inline: 4%;
+        padding-left: 24px;
     }
 }
 
@@ -1546,11 +1550,15 @@
         width: 60px;
     }
     #es-magne-b6.es-magne-b6 .es-symptoms__circle {
-        width: 96px;
-        height: 96px;
+        width: 106px;
+        height: 106px;
     }
     #es-magne-b6.es-magne-b6 .es-symptoms__single {
         width: 325px;
+        height: 106px;
+    }
+    #es-magne-b6.es-magne-b6 .es-symptoms__text {
+        max-width: 160px;
     }
     #es-magne-b6.es-magne-b6 .es-symptoms__name {
         margin-bottom: 18px;
@@ -1578,6 +1586,8 @@
     }
     #es-magne-b6.es-magne-b6 .es-choose__content {
         padding-bottom: 24px;
+        padding-left: 18%;
+        padding-right: 12%;
     }
     #es-magne-b6.es-magne-b6 .es-choose__title {
         margin-bottom: 68px;
@@ -1635,7 +1645,10 @@
         margin-bottom: 64px;
     }
     #es-magne-b6.es-magne-b6 .es-deal__single {
-        gap: 58px;
+        justify-content: space-between;
+    }
+    #es-magne-b6.es-magne-b6 .es-deal__content--2 {
+        margin-left: 48px;
     }
     #es-magne-b6.es-magne-b6 .es-footer__version {
         font-size: 16px;
