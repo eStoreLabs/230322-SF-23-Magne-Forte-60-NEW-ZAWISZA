@@ -58,8 +58,14 @@
 }
 @media (min-width: 450px) {
   #es-magne-b6.es-magne-b6 .es-kv__img--packshot {
-    max-width: 77%;
+    max-width: 87%;
   }
+}
+@media (min-width: 768px) {
+    #es-magne-b6.es-magne-b6 .es-kv__img--packshot {
+        max-width: 100%;
+        scale: 1.2;
+    } 
 }
 
 #es-magne-b6.es-magne-b6 .es-kv {
@@ -100,12 +106,10 @@
     font-weight: 600;
     font-size: clamp(1.0625rem, 0.4375rem + 3.125vw, 2rem);
     text-transform: uppercase;
-    /* text-align: center; */
     text-shadow: 0px 0px 5px #7999cf;
     position: relative;
     z-index: 5;
     margin-bottom: 20%;
-    max-width: 243px;
 }
 
 #es-magne-b6.es-magne-b6 .es-kv__label {
@@ -132,7 +136,7 @@
 
 @media (min-width: 576px) {
   #es-magne-b6.es-magne-b6 .es-kv__label {
-    top: 35%;
+    top: 38%;
   }
 }
 
@@ -265,6 +269,7 @@
     background-image: url(./images/background-4.webp);
     background-position: top center;
     background-repeat: no-repeat;
+    background-size: cover;
     margin-top: -32px;
 }
 
@@ -371,7 +376,7 @@
     font-family: "Gilroy SemiBold";
     font-weight: inherit;
     text-align: center;
-    font-size: clamp(1.25rem, 1.0833rem + 0.8333vw, 1.5rem);
+    font-size: clamp(1.25rem, 0.625rem + 3.125vw, 2.1875rem);
 }
 
 #es-magne-b6.es-magne-b6 #es-benefits-expand-toggle {
@@ -522,6 +527,7 @@
     font-size: inherit;
     text-align: center;
     padding-bottom: 16px;
+    font-size: clamp(1rem, 0.4583rem + 2.7083vw, 1.8125rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-symptoms__name {
@@ -1323,10 +1329,9 @@
         animation-delay: 16s;
     }
     #es-magne-b6.es-magne-b6 .es-symptoms__sign {
-        font-size: 20px;
         text-align: left;
         animation: es-bigger 20s infinite;
-        padding-bottom: 36px;
+        padding-bottom: 24px;
     }
     #es-magne-b6.es-magne-b6 .es-symptoms__signs {
         width: 42%;
@@ -1479,11 +1484,6 @@
     }
 }
 
-@media screen and (min-width: 390px) {
-  #es-magne-b6.es-magne-b6 .es-kv__subtitle {
-    max-width: 300px;
-  }
-}
 @media (min-width: 576px) {
     #es-magne-b6.es-magne-b6 .es-ingredients__single {
         min-width: 380px;
@@ -1494,7 +1494,6 @@
         margin-left: 10%;
     }
     #es-magne-b6.es-magne-b6 .es-kv__subtitle {
-        max-width: unset;
         margin-left: 10%;
     }
     #es-magne-b6.es-magne-b6 .es-features__single {
@@ -1502,6 +1501,7 @@
     }
     #es-magne-b6.es-magne-b6 .es-benefits {
         margin-top: -128px;
+        background-size: 100% 100%;
     }
     #es-magne-b6.es-magne-b6 .es-benefits__content {
         padding-bottom: 64px;
@@ -1511,10 +1511,9 @@
         padding-bottom: 28px;
     }
     #es-magne-b6.es-magne-b6 .es-benefits__desc {
-        padding-inline: 64px;
+        padding-inline: 43px;
         padding-top: 48px;
         padding-bottom: 96px;
-        font-size: 24px;
     }
 
     #es-magne-b6.es-magne-b6 .es-benefits__icon {
@@ -1539,9 +1538,8 @@
         padding-top: 48px;
     }
     #es-magne-b6.es-magne-b6 .es-symptoms__sign {
-        font-size: 24px;
-        padding-bottom: 32px;
-        padding-top: 32px;
+
+        padding-block: 1rem;
     }
 
     #es-magne-b6.es-magne-b6 .es-symptoms__icon {
