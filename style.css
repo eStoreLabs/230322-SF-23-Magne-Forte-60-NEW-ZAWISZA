@@ -104,7 +104,7 @@
     color: inherit;
     font-family: "Bliss";
     font-weight: 600;
-    font-size: clamp(1.0625rem, 0.4375rem + 3.125vw, 2rem);
+    font-size: 16px;
     text-transform: uppercase;
     text-shadow: 0px 0px 5px #7999cf;
     position: relative;
@@ -121,17 +121,12 @@
   background-color: #FFF;
   padding: 0.188rem 1rem;
   position: absolute;
-  top: 38%;
+  top: 40%;
   left: 0;
   z-index: 2;
   -webkit-box-shadow: 0px 0px 50px 35px rgba(107, 139, 199, 0.3);
   -moz-box-shadow: 0px 0px 50px 35px rgba(107, 139, 199, 0.3);
   box-shadow: 0px 0px 50px 35px rgba(107, 139, 199, 0.3);
-}
-@media (min-width: 390px) {
-  #es-magne-b6.es-magne-b6 .es-kv__label {
-    top: 40%;
-  }
 }
 
 @media (min-width: 576px) {
@@ -476,7 +471,7 @@
     font-size: clamp(1.25rem, 0.625rem + 3.125vw, 2.1875rem);
     text-align: center;
     margin-bottom: 32px;
-    padding-inline: 16px;
+    padding-inline: 2px;
 }
 
 #es-magne-b6.es-magne-b6 .es-symptoms__single {
@@ -531,7 +526,7 @@
     font-size: inherit;
     text-align: center;
     padding-bottom: 16px;
-    font-size: clamp(1rem, 0.4583rem + 2.7083vw, 1.8125rem);
+    font-size: clamp(1rem, 0.4583rem + 2.5083vw, 1.8125rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-symptoms__name {
@@ -702,7 +697,6 @@
     justify-content: space-around;
     align-items: center;
     cursor: pointer;
-
 }
 
 #es-magne-b6.es-magne-b6 .es-dose__btnTXT {
@@ -803,7 +797,7 @@
     font-weight: inherit;
     font-size: inherit;
     text-align: center;
-    padding-bottom: 32px;
+    /* padding-bottom: 32px; */
     font-size: clamp(1rem, 0.6667rem + 1.6667vw, 1.5rem);
 }
 
@@ -1076,7 +1070,7 @@
     border-radius: 50px;
     background-color: #962d38;
     text-align: center;
-    animation: es-pulse2 2s infinite;
+    /* animation: es-pulse2 2s infinite; */
     text-decoration: none;
     margin-bottom: 32px;
     font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.4375rem);
@@ -1269,11 +1263,12 @@
     #es-magne-b6.es-magne-b6 .es-kv__title {
         text-align: left;
         margin-left: 5%;
-        margin-top: -80%;
+        margin-top: -88%;
     }
     #es-magne-b6.es-magne-b6 .es-kv__subtitle {
         text-align: left;
         margin-left: 5%;
+        font-size: clamp(1.0625rem, 0.4375rem + 3.125vw, 2rem);
     }
     #es-magne-b6.es-magne-b6 .es-kv__packshot {
         padding-bottom: 0;
@@ -1496,6 +1491,7 @@
 @media screen and (min-width: 777px){
     #es-magne-b6.es-magne-b6 .es-kv__title {
         margin-left: 10%;
+        margin-top: -80%;
     }
     #es-magne-b6.es-magne-b6 .es-kv__subtitle {
         margin-left: 10%;
@@ -1579,7 +1575,6 @@
     #es-magne-b6.es-magne-b6 .es-dose__text {
         font-size: 24px;
     }
-
     #es-magne-b6.es-magne-b6 .es-choose {
         min-height: 1041px;
         margin-top: -200px;
@@ -1590,7 +1585,6 @@
         padding-right: 12%;
     }
     #es-magne-b6.es-magne-b6 .es-choose__title {
-        margin-bottom: 68px;
         padding-top: 222px;
     }
     #es-magne-b6.es-magne-b6 .es-ingredients__content {
