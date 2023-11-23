@@ -526,7 +526,7 @@
     font-size: inherit;
     text-align: center;
     padding-bottom: 16px;
-    font-size: clamp(1rem, 0.4583rem + 2.5083vw, 1.8125rem);
+    font-size: clamp(1rem, 0.4583rem + 2.3083vw, 1.8125rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-symptoms__name {
@@ -1026,7 +1026,7 @@
     font-family: "Bliss-Heavy", sans-serif;
     font-size: clamp(1.5rem, 0rem + 7.5vw, 3.75rem);
     text-align: center;
-    padding-top: 200px;
+    padding-top: 150px;
 }
 #es-magne-b6.es-magne-b6 .es-cross__label {
   font-family: "Bliss-Heavy", sans-serif;
@@ -1649,6 +1649,9 @@
     }
     #es-magne-b6.es-magne-b6 .es-deal__image {
         width: unset;
+    }
+    #es-magne-b6.es-magne-b6 .es-cross__title {
+        padding-top: 190px;
     }
 }
 
