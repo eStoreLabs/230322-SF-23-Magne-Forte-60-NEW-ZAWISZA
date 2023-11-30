@@ -1,22 +1,22 @@
       @font-face {
       font-family: "Bliss";
-      src: url("./fonts/Bliss2-Bold.woff") format("woff");
+      src: url("https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-Forte-100-NEW-ZAWISZA/fonts/Bliss2-Bold.woff") format("woff");
       font-display: swap;
   }
   @font-face {
     font-family: "Bliss-Heavy";
-    src: url("./fonts/Bliss-Heavy.otf") format("opentype");
+    src: url("https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-Forte-100-NEW-ZAWISZA/fonts/Bliss-Heavy.otf") format("opentype");
     font-display: swap;
 }
   @font-face {
     font-family: "Gilroy SemiBold";
-    src: url("./fonts/Gilroy-SemiBold.woff") format("woff");
+    src: url("https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-Forte-100-NEW-ZAWISZA/fonts/Gilroy-SemiBold.woff") format("woff");
     font-display: swap;
   }
 
   @font-face {
     font-family: "Gilroy";
-    src: url("./fonts/Gilroy-Regular.woff") format("woff");
+    src: url("https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-Forte-100-NEW-ZAWISZA/fonts/Gilroy-Regular.woff") format("woff");
     font-display: swap;
   }
 
@@ -36,7 +36,9 @@
     overflow: hidden;
     color: #fff;
 }
-
+#es-magne-b6.es-magne-b6 em {
+    font-style: normal;
+}
 #es-magne-b6.es-magne-b6 .es-index {
     line-height: 0;
     font-size: 60%;
@@ -96,7 +98,11 @@
     margin-bottom: 5%;
     line-height: 1;
 }
-
+@media (max-width: 300px) {
+    #es-magne-b6.es-magne-b6 .es-kv__title {
+        font-size: 2.4rem;
+    }
+}
 #es-magne-b6.es-magne-b6 .es-kv__subtitle {
     margin-left: 5%;
     padding: 0;
@@ -111,7 +117,11 @@
     z-index: 5;
     margin-bottom: 20%;
 }
-
+@media (max-width: 300px) {
+    #es-magne-b6.es-magne-b6 .es-kv__subtitle {
+        font-size: 12px;
+    }
+}
 #es-magne-b6.es-magne-b6 .es-kv__label {
   font-family: "Bliss-Heavy", sans-serif;
   text-transform: uppercase;
@@ -128,7 +138,11 @@
   -moz-box-shadow: 0px 0px 50px 35px rgba(107, 139, 199, 0.3);
   box-shadow: 0px 0px 50px 35px rgba(107, 139, 199, 0.3);
 }
-
+@media (max-width: 300px) {
+    #es-magne-b6.es-magne-b6 .es-kv__label {
+       padding: 2px 12px; 
+    }
+}
 @media (min-width: 576px) {
   #es-magne-b6.es-magne-b6 .es-kv__label {
     top: 38%;
@@ -148,7 +162,7 @@
 }
 #es-magne-b6.es-magne-b6 .es-kv__packshot:before {
   content: "";
-  background: url("./images/shine.webp");
+  background: url("https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-Forte-100-NEW-ZAWISZA/images/shine.webp");
   background-size: cover;
   position: absolute;
   top: -60%;
@@ -261,7 +275,7 @@
 }
 
 #es-magne-b6.es-magne-b6 .es-benefits {
-    background-image: url(./images/background-4.webp);
+    background-image: url(https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-Forte-100-NEW-ZAWISZA/images/background-4.webp);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -400,7 +414,7 @@
 }
 
 #es-magne-b6.es-magne-b6 .es-symptoms {
-    background: url(./images/background-3.webp);
+    background: url(https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-Forte-100-NEW-ZAWISZA/images/background-3.webp);
     background-position: bottom left;
     background-repeat: no-repeat;
     position: relative;
@@ -634,7 +648,11 @@
     border-radius: 50px;
     width: 300px;
 }
-
+@media (max-width: 400px) {
+    #es-magne-b6.es-magne-b6 .es-dose__single {
+        width: 260px;
+    }
+}
 #es-magne-b6.es-magne-b6 .es-dose__circle {
     border: 2px solid #001883;
     border-radius: 222px;
@@ -747,7 +765,7 @@
 
 #es-magne-b6.es-magne-b6 .es-choose {
     margin-bottom: 32px;
-    background: url(./images/background-4.webp);
+    background: url(https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-Forte-100-NEW-ZAWISZA/images/background-4.webp);
     background-position: top center;
     background-repeat: no-repeat;
     margin-top: -96px;
@@ -800,7 +818,9 @@
     /* padding-bottom: 32px; */
     font-size: clamp(1rem, 0.6667rem + 1.6667vw, 1.5rem);
 }
-
+#es-magne-b6.es-magne-b6 .es-choose__step {
+    margin-bottom: 16px;
+}
 #es-magne-b6.es-magne-b6 .es-ingredients__img {
     max-width: 100%;
     display: block;
@@ -957,7 +977,7 @@
 }
   
 #es-magne-b6.es-magne-b6 .es-info__container {
-    background: url(./images/background-2.webp);
+    background: url(https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-Forte-100-NEW-ZAWISZA/images/background-2.webp);
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 363px;
@@ -1089,7 +1109,11 @@
     cursor: pointer;
     font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.4375rem);
 }
-
+@media (max-width: 400px) {
+    #es-magne-b6.es-magne-b6 .es-cross__btn--mobile {
+        font-size: 16px;
+    }
+}
 #es-magne-b6.es-magne-b6 .es-cross__name {
     margin: 24px 0;
     padding: 0;
@@ -1135,83 +1159,6 @@
     transition: all 0.3s ease-out;
 }
 
-#es-magne-b6.es-magne-b6 .es-deal__img {
-    max-width: 100%;
-    display: block;
-    margin-left: auto;
-}
-
-#es-magne-b6.es-magne-b6 .es-deal__img--middle {
-    margin-left: 0;
-}
-
-#es-magne-b6.es-magne-b6 .es-deal__container {
-    margin-bottom: 32px;
-}
-
-#es-magne-b6.es-magne-b6 .es-deal__title {
-    margin: 0;
-    padding: 0;
-    line-height: inherit;
-    color: #001883;
-    font-family: "Bliss-Heavy", sans-serif;
-    font-size: clamp(1.5rem, 0rem + 7.5vw, 3.75rem);
-    text-align: center;
-    margin-bottom: 32px;
-}
-
-#es-magne-b6.es-magne-b6 .es-deal__subtitle {
-    margin: 0;
-    padding: 0;
-    line-height: inherit;
-    color: #001883;
-    font-family: inherit;
-    font-weight: 600;
-    text-align: center;
-    margin-bottom: 24px;
-    /* font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.4375rem); */
-    font-size: clamp(1.25rem, 0.625rem + 3.125vw, 2.1875rem);
-}
-
-#es-magne-b6.es-magne-b6 .es-deal__desc {
-    margin: 0;
-    padding: 0;
-    line-height: inherit;
-    color: #001883;
-    font-family: inherit;
-    font-weight: 400;
-    text-align: left;
-    margin-bottom: 32px;
-    padding-inline: 16px;
-    font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.4375rem);
-}
-
-#es-magne-b6.es-magne-b6 .es-deal__single {
-    margin-bottom: 32px;
-}
-
-#es-magne-b6.es-magne-b6 .es-deal__btn {
-    margin: 0;
-    padding: 12px 24px;
-    line-height: inherit;
-    color: inherit;
-    font-family: "Gilroy SemiBold";
-    font-weight: inherit;
-    border-radius: 50px;
-    background-color: #962d38;
-    text-align: center;
-    animation: es-pulse2 2s infinite;
-    text-decoration: none;
-    white-space: nowrap;
-    font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.4375rem);
-}
-
-#es-magne-b6.es-magne-b6 .es-deal__content {
-    display: flex;
-    align-items: center;
-    flex-flow: column;
-}
-
 #es-magne-b6.es-magne-b6 .es-footer__content {
     display: flex;
     justify-content: space-between;
@@ -1229,6 +1176,7 @@
     font-size: clamp(1rem, 0.9167rem + 0.4167vw, 1.125rem);
     text-align: left;
     margin-bottom: 32px;
+    word-wrap: break-word;
 }
 
 #es-magne-b6.es-magne-b6 .es-footer__version {
@@ -1252,7 +1200,11 @@
     text-align: left;
     font-size: clamp(1rem, 0.7083rem + 1.4583vw, 1.4375rem);
 }
-
+@media (max-width: 400px) {
+    #es-magne-b6.es-magne-b6 .es-footer__img {
+        max-width: 100px;
+    }
+}
 
 @media screen and (min-width: 375px){
     
@@ -1588,7 +1540,7 @@
         padding-top: 222px;
     }
     #es-magne-b6.es-magne-b6 .es-ingredients__content {
-        background-image: url(./images/tablet.webp);
+        background-image: url(https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-Forte-100-NEW-ZAWISZA/images/tablet.webp);
         background-position: top left;
         background-repeat: no-repeat;
     }
