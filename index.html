@@ -1,13 +1,10 @@
-<!DOCTYPE html>
- <html lang="pl">
-  <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magne B6</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+
     <div class="es-magne-b6" id="es-magne-b6">
 
       <section class="es-kv">
@@ -352,6 +349,23 @@
 
     </div>
     <script>
+      function getStyles(href) {
+        var head = document.getElementsByTagName('head')[0];
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = href;
+        head.appendChild(link);
+      }
+      document.onreadystatechange = function () {
+        if (document.readyState === 'complete') {
+          getStyles(
+            'https://s3.eu-central-1.amazonaws.com/cdn.rc-eu-central2.nexus.estorelabs.com/public/static/230322-SF-23-Magne-Forte-100-NEW-ZAWISZA/style.css?dl=0'
+          );
+        }
+      };
+    </script>
+    <script>
       // button in es-benefits section //
       let btnBenefits = document.querySelector('.es-benefits__btn');
       let btnBenefitsTxt = document.getElementById('es-benefits__btnTXT');
@@ -428,5 +442,3 @@
       });
   
     </script>
-  </body>
-</html>
