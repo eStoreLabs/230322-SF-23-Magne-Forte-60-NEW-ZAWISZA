@@ -868,17 +868,16 @@
 
 #es-magne-b6.es-magne-b6 .es-ingredients__single {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 2px solid #001883;
     align-items: center;
     gap: 12px;
     background-color: #fff;
     border-radius: 50px;
+    width: 100%;
+    max-width: 300px;
     @media (min-width: 415px) {
-            flex-direction: row;
-            border-radius: 222px;
-            justify-content: flex-start;
-            border: 2px solid #001883;
             min-width: 333px;
     }
 }
@@ -889,8 +888,7 @@
 }
 
 #es-magne-b6.es-magne-b6 .es-ingredients__circle {
-    margin-top: 24px;
-    border: 2px solid #001883;
+    outline: 2px solid #001883;
     border-radius: 222px;
     background-color: #fff;
     width: 96px;
@@ -912,9 +910,7 @@
     color: #001883;
     font-family: inherit;
     font-weight: 400;
-    text-align: center;
-    margin-bottom: 24px;
-    font-size: clamp(1rem, 0.6667rem + 1.6667vw, 1.5rem);
+    font-size: clamp(0.75rem, 0.2908rem + 2.449vw, 1.5rem);
 }
 
 #es-magne-b6.es-magne-b6 .es-ingredients__content {
@@ -1198,7 +1194,7 @@
     }
 }
 
-@media screen and (min-width: 375px){
+@media screen and (min-width: 376px) {
     
     #es-magne-b6.es-magne-b6 .es-kv__background {
         /* display: block; */
@@ -1542,6 +1538,8 @@
     }
     #es-magne-b6.es-magne-b6 .es-ingredients__single {
         width: 475px;
+        max-width: unset;
+        border-radius: 100px;
     }
     #es-magne-b6.es-magne-b6 .es-info__desc {
         max-width: 555px;
